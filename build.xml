@@ -1,11 +1,11 @@
-<!-- Nhorner CS178 Assignment: Ant Build HelloWorld.java Application Due 9/1/16 -->
-<project name="HelloWorld" basedir="." default="main">
+<!-- Nhorner CS178 Assignment: Ant Build for CountThrees_Java Application Due ? -->
+<project name="CountThrees_Java" basedir="." default="main">
 
-    <property name="src.dir"	value="src"/>
-    <property name="build.dir"	value="build"/>
+    <property name="src.dir"	value="~/CountThrees_Java/src"/>
+    <property name="build.dir"	value="~/CountThrees_Java/build"/>
     <property name="classes.dir" value="${build.dir}/classes"/>
     <property name="jar.dir"	value="${build.dir}/jar"/>
-    <property name="main-class"	value="oata.HelloWorld"/>
+    <property name="main-class"	value="oata.ServletCountThrees"/>
 
     <target name="clean">
         <delete dir="${build.dir}"/>
